@@ -8,6 +8,12 @@ public class CriaConta {
 		primeiraConta.saldo +=100;
 		
 		System.out.println("Meu saldo é: " + primeiraConta.saldo);
+		
+		Conta segundaConta = new Conta();
+		
+		segundaConta.saldo = 50;
+		
+		System.out.println("Meu saldo é: " + segundaConta.saldo);
 	}
 
 }
