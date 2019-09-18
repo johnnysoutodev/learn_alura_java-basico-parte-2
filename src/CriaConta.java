@@ -14,6 +14,15 @@ public class CriaConta {
 		segundaConta.saldo = 50;
 		
 		System.out.println("Meu saldo é: " + segundaConta.saldo);
+		
+		if (primeiraConta == segundaConta) {
+			System.out.println("sao a mesma conta");
+		} else {
+			System.out.println("sao contas diferentes");
+		}
+		
+		System.out.println(primeiraConta);
+		System.out.println(segundaConta);
 	}
 
 }

@@ -13,5 +13,8 @@ public class TesteReferencia{
 		if (primeiraConta == segundaConta) {
 			System.out.println("Sao a mesma coisa");
 		}
+		
+		System.out.println(primeiraConta);
+		System.out.println(segundaConta);
 	}
 }
